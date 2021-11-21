@@ -1,0 +1,142 @@
+# banner
+banner:
+  title : "Hola! Soy <br> Jorge, un futuro <br> desarrollador web"
+
+# about
+about:
+  enable : true
+  content : "Tengo 30 años y estoy cursando el grado superior de Desarrollo de Aplicaciones web. He descubierto en los lenguajes de programación y la creatividad orientada al entorno digital, mi ecosistema perfecto para ser feliz mientras trabajo."
+  button:
+    enable : true
+    label : "¿Quieres conocerme mejor?"
+    URL : "about"
+
+# skill
+skill:
+  enable : true
+  title : "Habilidades"
+  item:
+    - title : "Java"
+      progress : "90%"
+      color : "#fdb157"
+      
+    - title : "Javascript"
+      progress : "60%"
+      color : "#9473e6"
+      
+    - title : "CSS"
+      progress : "80%"
+      color : "#bdecf6"
+      
+    - title : "PHP"
+      progress : "70%"
+      color : "#ffbcaa"
+
+# experience
+experience:
+  enable : true
+  title : "Experiencia"
+  item: 
+    - logo : "images/experience/icon-1.png"
+      title : "Coordinador de equipo"
+      company : "Vodaphone"
+      duration : "Enero 2007 - Febrero 2009"
+      
+    - logo : "images/experience/icon-2.png"
+      title : "Teleoperador"
+      company : "Vodaphone"
+      duration : "Marzo 2009 - Agosto 2014"
+      
+    - logo : "images/experience/icon-1.png"
+      title : "Asistencia técnica"
+      company : "Schindler"
+      duration : "Septiembre 2014 - Actualidad"
+
+# education
+education:
+  enable : true
+  title : "Formación"
+  item:
+    - title : "Grado Medio de Electrónica"
+      year : "2006"
+      academy : "IES Pablo Serrano"
+      
+    - title : "Máster en HTML y CSS"
+      year : "2004"
+      academy : "Domestika"
+      
+    - title : "Curso de socorrista"
+      year : "2000"
+      academy : "UME"
+      
+    - title : "Curso de electrónica"
+      year : "1998"
+      academy : "IES Pablo Serrano"
+
+# service
+service:
+  enable : true
+  title : "Servicios"
+  item:
+    - title : "Programación web"
+      icon : "ti-palette"
+      content : "El servicio de programación web cubre todas las acciones de desarrollo de la parte funcional de una web, es decir la parte de la web que se ejecuta en el servidor."
+      highlighted : false
+
+    - title : "Maquetación web"
+      icon : "ti-vector"
+      content : "El servicio de maquetación web cubre todas las acciones de desarrollo de la parte estética de una web, es decir la parte de la web que se ejecuta en el cliente."
+      highlighted : true
+
+    - title : "Coppy writter"
+      icon : "ti-panel"
+      content : "El servicio de copy writter es un servicio flexibe dependiendo de las necesidades del cliente. Si necesitas ayuda para crear el contenido de tu web este es tu servicio."
+      highlighted : false
+
+# portfolio
+portfolio:
+  enable : true
+  title : "Portfolio"
+  item_show : 5
+  # portfolio item comes from 'data/portfolio.yml' item.
+
+
+# client logo slider
+clients_logo_slider:
+  enable : true
+  item:
+    - logo : "images/clients-logo/client-logo-1.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-2.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-3.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-4.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-5.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-1.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-2.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-3.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-4.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-5.png"
+      URL : "#"
+
+# blog
+blog:
+  enable : true
+  title : "Blogs"
+  # blog post comes from "content/blog" folder
