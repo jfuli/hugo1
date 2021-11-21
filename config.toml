@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://jfuli.github.io/hugo1/'
 languageCode = 'en-US'
 title = 'Jorge Fernández'
 theme = 'kross'
